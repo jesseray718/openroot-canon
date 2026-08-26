@@ -1,0 +1,64 @@
+{
+  "id": "openroot-algorithms",
+  "version": "1.0.0",
+  "status": "locked",
+  "rule": "The name of the algorithm is the token. The body lives in src/canon.py. This file is the index, not a second implementation.",
+  "algorithms": {
+    "coord": {
+      "token": "C",
+      "needs": ["N", "T", "R"],
+      "returns": "C",
+      "cite": "N03"
+    },
+    "synergy": {
+      "token": "S",
+      "needs": ["N", "R", "B"],
+      "defaults": {"B": 6},
+      "returns": "S",
+      "cite": "N05"
+    },
+    "eta": {
+      "token": "eta",
+      "needs": ["useful_joules", "human_joules"],
+      "returns": "eta | null",
+      "cite": "N01"
+    },
+    "gamma": {
+      "token": "gamma",
+      "needs": ["Y", "L", "P", "F", "Jh", "Je", "C"],
+      "returns": "gamma | null",
+      "cite": "N02"
+    },
+    "landauer": {
+      "token": "landauer_floor",
+      "needs": ["T_kelvin", "bits"],
+      "defaults": {"T_kelvin": 300},
+      "returns": "joules",
+      "cite": "N06"
+    },
+    "newton": {
+      "token": "Newton",
+      "needs": ["query"],
+      "returns": "matching postulates or empty",
+      "cite": "newton_chain"
+    },
+    "need_gate": {
+      "token": "need_gate",
+      "needs": ["proposed_token", "meaning"],
+      "returns": "reuse existing | candidate stub | reject",
+      "cite": "N11"
+    },
+    "derive": {
+      "token": "A1",
+      "needs": ["utterance"],
+      "returns": "newton hits first, else need_gate, else raw utterance marked underived",
+      "cite": "N00"
+    }
+  },
+  "do_not_reimplement_here": [
+    "block_hash and merkle — thermo-lattice/src/thermo_ledger.py",
+    "CAS put — thermo-lattice",
+    "aerocement calc — aerocement_calc package",
+    "chord lengths — geodesic-lw-statues/scripts/chord_lengths.py"
+  ]
+}

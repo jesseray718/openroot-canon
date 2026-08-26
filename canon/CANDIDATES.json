@@ -1,0 +1,11 @@
+{
+  "items": {
+    "soak_test": {
+      "meaning": "7-day water sit then weigh to score statue coat",
+      "status": "ready_to_lock",
+      "token": "soak_test",
+      "uses": 3
+    }
+  },
+  "version": "1.0.0"
+}

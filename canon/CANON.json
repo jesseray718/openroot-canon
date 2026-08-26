@@ -1,0 +1,111 @@
+{
+  "id": "openroot-canon",
+  "version": "1.0.0",
+  "status": "locked",
+  "rule": "A locked postulate is not rewritten. Cite its id. If it is wrong, add a successor id and mark this one superseded. Do not paraphrase it into a 101st README.",
+  "newton_chain": "If a query matches a postulate, return the postulate. Do not recompute. That skip is the yield.",
+  "postulates": [
+    {
+      "id": "N00",
+      "name": "source",
+      "lock": "Agape is the kernel. A1 is DERIVATION. Every later name is a derivation toward R=1.0 or it is noise."
+    },
+    {
+      "id": "N01",
+      "name": "eta",
+      "symbol": "η",
+      "lock": "η = useful_joules / human_joules. The only performance language for an act. Unknown joules are null, never invented."
+    },
+    {
+      "id": "N02",
+      "name": "gamma",
+      "symbol": "Γ",
+      "lock": "Γ = (Y * L * P * F) / (Jh + Je + C). Score of a stream or a day's work. Money is not Γ."
+    },
+    {
+      "id": "N03",
+      "name": "coordination",
+      "symbol": "C",
+      "lock": "C(N,T,R) = N * 0.001 * (1 + 0.1*T) * (1-R)^T. At R=1.0 and T>=1, C=0 identically."
+    },
+    {
+      "id": "N04",
+      "name": "resonance",
+      "symbol": "R",
+      "lock": "R in [0,1]. R=1.0 is the mathematical state of unconditional cooperation, not a mood."
+    },
+    {
+      "id": "N05",
+      "name": "synergy",
+      "symbol": "S",
+      "lock": "S = 1.0 + (R * 0.5 * log_B(N)). B is the fractal base. Default B=6."
+    },
+    {
+      "id": "N06",
+      "name": "landauer_floor",
+      "lock": "E_min = kT ln 2. At 300 K, ~2.87e-21 J/bit. No process beats this. File-deletion heat is not a vent."
+    },
+    {
+      "id": "N07",
+      "name": "least_first",
+      "symbol": "L",
+      "lock": "L is the fraction of yield that reaches the lowest-capability node first. L=1.0 or say you are not doing Agape."
+    },
+    {
+      "id": "N08",
+      "name": "hang",
+      "lock": "To hang is to put unique bytes in CAS and append one thermo block: prev_hash + payload + optional mass_kg + time. Same bytes do not copy again."
+    },
+    {
+      "id": "N09",
+      "name": "popw",
+      "lock": "Proof of physical work, minimum: mass_kg bound to file sha256 in one block. Stronger: scale photo hashed in the same block. Consensus is honesty plus audit, not miners."
+    },
+    {
+      "id": "N10",
+      "name": "chain",
+      "lock": "The project is chain.jsonl plus cas/. Not a public blockchain. Genesis prev_hash is 64 zeros. block_hash = SHA256(canonical JSON without block_hash)."
+    },
+    {
+      "id": "N11",
+      "name": "need_gate",
+      "lock": "A new name is born only when no locked name can say the thing. Candidate lives through 3 real uses. Then lock or delete. Expansion is a cost. Pay it only from need."
+    },
+    {
+      "id": "N12",
+      "name": "edges",
+      "lock": "Twelfth axiom: use edges and value the marginal. Storage pressure, field edges, conflict files, washout drips. Harvest before cleanup."
+    },
+    {
+      "id": "N13",
+      "name": "cure",
+      "lock": "21-day wet cure is non-negotiable for any cement matrix we will call durable. Lightweight shells dry too fast. Keep them wet."
+    },
+    {
+      "id": "N14",
+      "name": "efficiency_cap",
+      "lock": "Never claim greater than 100% thermodynamic efficiency for a heat engine. η of an act may exceed 1 only when useful_joules counts later work the object will do. Say which η you mean."
+    },
+    {
+      "id": "N15",
+      "name": "licenses",
+      "lock": "CC-BY-SA-4.0 hardware and docs. GPL-3.0 software. No patents. Ever."
+    }
+  ],
+  "routers": [
+    "Observe and Interact",
+    "Catch and Store Energy",
+    "Obtain a Yield",
+    "Apply Self-Regulation",
+    "Use Renewable Resources",
+    "Produce No Waste",
+    "Design from Patterns",
+    "Integrate Not Segregate",
+    "Use Small and Slow Solutions",
+    "Use and Value Diversity",
+    "Creatively Respond to Change",
+    "Use Edges and Value the Marginal"
+  ],
+  "atomic_six": ["translate", "orchestrate", "retrieve", "process", "synthesize", "verify"],
+  "fractal_base": 6
+}
