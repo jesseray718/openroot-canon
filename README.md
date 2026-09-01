@@ -62,3 +62,6 @@ python3 /sdcard/openroot/thermo/src/thermo_ledger.py hang \
 ```
 
 When CANON.json changes, the hash changes, a new block appears. The old blob remains. That is how you see that you broke a lock.
+
+## Knowledge Integration
+See `docs/knowledge/`.
